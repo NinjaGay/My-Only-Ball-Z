@@ -1,0 +1,42 @@
+/*Aqui é onde nós colocamos todo o aspecto visual de nosso HTML*/
+/*Colocamos um identificador que sera acessado por outro arquivo 
+e verificara o estilo do HTML que queremos para aquela area*/
+
+
+canvas{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	z-index: -1;	
+}
+
+
+#setaCima{
+	position: absolute;
+	top: 550px;
+	bottom: 0px;
+	left: 550px;
+	right: 0px;
+	margin: auto;
+}
+
+#setaFrente{
+	position: absolute;
+	top: 550px;
+	bottom: 0px;
+	left: 0px;
+	right: 450px;
+	margin: auto;
+}
+
+#setaTras{
+	position: absolute;
+	top: 550px;
+	bottom: 0px;
+	left: 0px;
+	right: 550px;
+	margin: auto;
+}
